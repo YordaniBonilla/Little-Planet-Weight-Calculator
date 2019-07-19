@@ -1,6 +1,6 @@
 .center{
     text-align:center;
-    background-color:red;
+    background-color:solid blue;
     border:1px solid white;
 }
 
@@ -11,6 +11,6 @@
 }
 
 html{
-    background-color:red;
+    
 }
 

@@ -26,6 +26,7 @@ let pesoEnOtroPlaneta = (planeta , peso) => {
           //divide weight by earth gravity * jupiter's gravity
           let weightOnJupiter = (peso / 9.81) * 24.79;
           document.getElementById("respuesta").innerHTML = weightOnJupiter;
+          break;
     }
 }
 
