@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Calculator</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!--Container for Question Componet-->
+    <div class="center">
+        <h1>Calcula tu peso en otros Planetas!</h1>
+        <div class="img">
+            <img src="images/1.jpg" alt="">
+        </div>
+        <h1 name="respuesta" id="respuesta">0</h1>
+        <label for="planet">Ingresa El Planeta</label>
+        <br>
+        <input type="text" name="planet" id="planet">
+        <br>
+        <label for="weight">Ingresa Tu Peso</label>
+        <br>
+        <input type="text" name="weight" id="weight">
+        <br>
+        <button type="button"
+            onclick="pesoEnOtroPlaneta(document.getElementById('planet').value,document.getElementById('weight').value)">Show
+            Weight</button>
+        <button type="button" onclick="document.getElementById('respuesta').innerHTML = 0">Reset</button>
+    </div>
+    <script type="text/javascript" src="Exercises.js"></script>
+</body>
+
+</html>
